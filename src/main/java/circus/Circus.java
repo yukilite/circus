@@ -1,3 +1,5 @@
+package circus;
+
 import circus.Parrot;
 import stuff.Cannon;
 import stuff.Equipment;

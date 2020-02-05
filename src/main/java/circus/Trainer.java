@@ -14,7 +14,7 @@ public class Trainer {
         //must be of that type to convert int
         train(new Parrot()); //difference between static binding (compiler). at run time it looks at actual object tries converting it into duck. gets error
         // Animal a2 = new Animal(); //added abstract to Animal
-        // Bird b2 = new Bird();
+        // circus.Bird b2 = new circus.Bird();
     }
 
     private static void train(Bird bird) {
