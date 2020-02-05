@@ -1,3 +1,7 @@
+package stuff;
+
+import stuff.Equipment;
+
 public class Ladder extends Equipment {
 
     public Ladder(int purchasePrice) {
