@@ -7,8 +7,12 @@ REM delete output from previous run
 del ACTUAL.TXT
 
 REM compile the code into the bin folder
+<<<<<<< HEAD
 javac  -cp ..\src -Xlint:none -d ..\bin ..\src\main\java\circus\*.java
 ..\src\main\java\circus\animal\*.java ..\src\main\java\circus\stuff\*.java
+=======
+javac  -cp ..\src -Xlint:none -d ..\bin ..\src\main\java\circus\*.java ..\src\main\java\circus\animal\*.java ..\src\main\java\circus*.java
+>>>>>>> improved
 IF ERRORLEVEL 1 (
     echo ********** BUILD FAILURE **********
     exit /b 1
